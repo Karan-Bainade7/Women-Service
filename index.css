@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-decoration: none;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.taluka-button {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #e0306b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+.no-underline {
+    text-decoration: none;
+    color: inherit; /* Ensures the text color is not blue (default link color) */
+}
+
+.no-underline:hover {
+    text-decoration: none; /* Ensures the text doesn't get underlined on hover */
+}
+
+.taluka-button:hover {
+    background-color: #ff3366;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+}
+
+footer img {
+    width: 300px;
+}
